@@ -77,7 +77,7 @@ AGPLv3 - All contributions must comply with this license.
 ### Developer Tools
 - **ESLint** - Linting
 - **Prettier** - Code formatting with plugins (tailwindcss, organize-imports)
-- **Drizzle Kit** - Database studio
+- **Prisma Studio** - Database studio for Prisma
 - **React Email** - Email development
 
 ---
@@ -325,8 +325,8 @@ npm run dev
 # Optional: Start email development server
 npm run email
 
-# Optional: Open Drizzle Studio
-npm run studio
+# Optional: Open Prisma Studio
+npx prisma studio
 ```
 
 ### Development Commands
@@ -337,7 +337,7 @@ npm run build        # Build production bundle
 npm run start        # Start production server
 npm run format       # Format code with Prettier
 npm run email        # Email development server (port 7777)
-npm run studio       # Drizzle Studio (port 5555)
+npx prisma studio    # Prisma Studio for database inspection
 ```
 
 ### Git Workflow
